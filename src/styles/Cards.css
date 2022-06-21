@@ -1,0 +1,19 @@
+.cards{
+    width: 30vw;
+    height:30vw;
+    margin: 1vw;
+    box-shadow: 0 0 10px #333;
+}
+.cards>img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+.homepage__cards__container>h5{
+    font-size: 2rem;
+}
+@media screen and (max-width:800px) {
+    .homepage__cards__container>h5 {
+        font-size: 1rem;
+    }
+}

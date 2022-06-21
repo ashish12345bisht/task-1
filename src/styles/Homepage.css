@@ -1,0 +1,112 @@
+.homepage__categories{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.homepage__categories div{
+    font-size: 1vw;
+    width: 25vw;
+    height: auto;
+}
+.homepage__categories div>h4{
+    margin: 0;
+    padding: 0;
+}
+.banner__container{
+    background-image: url("../../public//assets/banner-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99vw;
+    height: 80vh;
+}
+.banner__container__left{
+    float: left;
+    color:#fff;
+    margin-left: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    justify-content: space-around;
+    /* padding: 1vh 0; */
+    margin-top: 2vh;
+}
+.banner__container__left h3{
+    font-size: 5vw;
+    margin: 0;
+    padding: 0;
+}
+.banner__container__left p {
+    margin: 0;
+    padding: 0;
+    font-size: 200%;
+}
+.banner__container__left>h1{
+    line-height: 100%;
+    letter-spacing: 0.5;
+    margin: 0;
+    padding: 0;
+    font-size: 10vw;
+}
+.banner__container__left>button{
+    background-color: #333;
+    color: white;
+    border: none;
+    width: 20vw;
+    padding: 5%;
+    font-size: 2vw;
+}
+.homepage__banner__2{
+    background-image: url("../../public//assets/banner-1.jpg");
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.homepage__banner__2 > div:nth-child(1){
+    display:flex;
+    color:white;
+}
+.homepage__banner__2>div:nth-child(2) {
+    display: flex;
+    color:white;
+    justify-content: end;
+}
+.homepage__banner__2__sub > h6{
+    font-size: 1.5rem;
+}
+.homepage__banner__2__sub>h4 {
+    font-size: 3rem;
+}
+.homepage__cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.homepage__categories img{
+    width: 90%;
+    height: 75%;
+    margin: 5%;
+    object-fit: contain;
+}
+@media screen and (max-width:800px) {
+    .banner__container{
+        height: 30vh;
+    }
+    .homepage__banner__2{
+        height: 30vh;
+    }
+    .homepage__banner__2__sub>h6 {
+        font-size: 0.5rem;
+    }
+
+    .homepage__banner__2__sub>h4 {
+        font-size: 1rem;
+    }
+    .homepage__categories div {
+        font-size: 4vw;
+    }
+}
