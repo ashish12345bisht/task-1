@@ -27,19 +27,19 @@ function Homepage() {
       </div>
       <div className="homepage__categories">
         <div onClick={() => setCategory("men")}>
-          <img src="./assets/men.jpg" />
+          <img src="https://ik.imagekit.io/cooldunlin185005/assets/men_pC0qBRd_L.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655813316445" />
           <h4>MEN</h4>
         </div>
         <div onClick={() => setCategory("women")}>
-          <img src="./assets/women.jpg" />
+          <img src="https://ik.imagekit.io/cooldunlin185005/assets/women_RhWhw9_nm.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655813987965" />
           <h4>WOMEN</h4>
         </div>
         <div onClick={() => setCategory("electronics")}>
-          <img src="./assets/electronics.jpg" />
+          <img src="https://ik.imagekit.io/cooldunlin185005/assets/electronics_wNRZtrRTy.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655812760253" />
           <h4>ELECTRONICS</h4>
         </div>
         <div onClick={() => setCategory("jewelery")}>
-          <img src="./assets/jewelery.jpg" />
+          <img src="https://ik.imagekit.io/cooldunlin185005/assets/jewelery_sRfOBiTeG.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655814613651" />
           <h4>JEWELERY</h4>
         </div>
       </div>
